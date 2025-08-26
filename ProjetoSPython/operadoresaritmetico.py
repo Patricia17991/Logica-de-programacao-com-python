@@ -1,4 +1,5 @@
-
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
 
 #operações
 soma = a + b 
@@ -18,3 +19,4 @@ print("Divisão: ", divisao)
 print("Divisão inteira: ", divisao_inteira)
 print("Resto da divisão: ", resto)
 print("Exponênciação: ", exponenciacao)
+
