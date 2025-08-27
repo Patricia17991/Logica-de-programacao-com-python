@@ -9,11 +9,11 @@ media = (nota1 + nota2 + nota3) / 3
 print(f"\nMédia final: {media:.2f}")
 
 # Avaliação do desempenho
-if media >= 9.0  # ❌ erro proposital: falta o dois-pontos
+if media >= 9.0  
     print("Desempenho: Excelente! 🏆")
 elif media >= 7.0:
     print("Desempenho: Bom! 👍")
-elif media >= 5.0:
+elifmedia >= 5.0:
     print("Desempenho: Regular. 😐")
 else:
     print("Desempenho: Insuficiente. 😞")
@@ -24,4 +24,5 @@ if media >= 7.0:
 elif media >= 5.0:
     print("Situação: Em recuperação. 📚")
 else:
+
     print("Situação: Reprovado. 😔")
